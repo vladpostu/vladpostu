@@ -1,6 +1,1 @@
-- 👋 Hi, I’m @vladpostu
-- 👀 I’m interested mainly in frontend Web Development, but also backend and others
-- 🌱 I’m currently learning at fifht year at Carlo Zuccante, in Italy 
-- 📫 You can contact me at: 
-      -vladposth@gmail.con 
-      -@vladpostu on Instagram
+TODO
