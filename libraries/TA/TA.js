@@ -106,11 +106,12 @@
     typingBackward(finalForm) {
         let duration = this.getRandomNumber(this.state.minDelay, this.state.maxDelay);
     
-        if (this.state.htmlEl.textContent.length > finalForm.length) {
+        if (this.state.htmlEl.textContent.length != finalForm.length) {
             this.state.htmlEl.textContent = this.state.htmlEl.textContent.slice(0, (this.state.htmlEl.textContent.length-1));
+
+            setTimeout(() => this.typingBackward(finalForm), duration);
         }
-    
-        setTimeout(() => this.typingBackward(finalForm), duration);
+        
     }
     
     /**
